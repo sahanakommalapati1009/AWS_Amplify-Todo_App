@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(180deg, rgb(117, 81, 194), rgb(255, 255, 255));
+  background: #f5f6ff; /* pastel lavender background */
   display: flex;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
@@ -15,6 +15,7 @@ main {
   align-items: stretch;
 }
 
+/* 🌸 Pastel button styling */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -22,19 +23,23 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #bae6fd; /* pastel teal */
   cursor: pointer;
-  transition: border-color 0.25s;
-  color: white;
+  transition: border-color 0.25s, background-color 0.25s;
+  color: #111827; /* dark gray text for contrast */
 }
+
 button:hover {
-  border-color: #646cff;
+  border-color: #7dd3fc;
+  background-color: #7dd3fc; /* slightly deeper pastel on hover */
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* List styling left unchanged unless needed */
 ul {
   padding-inline-start: 0;
   margin-block-start: 0;
